@@ -1,0 +1,45 @@
+
+  .container1{
+    background:linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+   background-size: 100% 100%;
+   width: 100%;
+   animation: gradient-animation 18s ease infinite;
+   display:flex;
+   flex-wrap: wrap;
+   justify-content:center;
+   align-items:center;
+}
+
+
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .btn{
+    background-color: aliceblue;
+    border-color: white;
+    color: black;
+   padding:10px; 
+  }
+
+  .btn2{
+    background-color: transparent;
+    border: white;
+    border-color:white;
+    color: black;
+   padding:10px; 
+  }
+
+
+  .profile-img{
+border-radius: 50%;}
+
+
